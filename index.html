@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>León Informática — Eficiencia Tecnológica</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Exo+2:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">
+    <img src="img/logo.jpg" alt="León Informática"/>
+    <div>
+      <div class="logo-text">LEÓN INFORMÁTICA</div>
+      <span class="logo-sub">Eficiencia Tecnológica</span>
+    </div>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#nosotros">Nosotros</a></li>
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#porque">¿Por qué nosotros?</a></li>
+    <li><a href="#contacto" class="nav-cta">Contacto</a></li>
+  </ul>
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-glow"></div>
+  <div>
+    <span class="hero-badge">Ciudad del Este — Paraguay</span>
+    <h1>SOLUCIONES<br><em>INFORMÁTICAS</em><br>PROFESIONALES.</h1>
+    <p class="hero-sub">Protegemos tu información, modernizamos tu infraestructura y te proveemos los mejores insumos tecnológicos para que tu empresa opere sin límites.</p>
+    <div class="hero-actions">
+      <a href="#servicios" class="btn-primary">VER SERVICIOS</a>
+      <a href="#contacto" class="btn-outline">Contactarnos →</a>
+    </div>
+  </div>
+  <div class="hero-img-wrap">
+    <img src="img/fondo.jpg" alt="León Informática — Eficiencia Tecnológica"/>
+  </div>
+</section>
+
+<!-- NOSOTROS -->
+<section id="nosotros">
+  <div class="section-label reveal">// Quiénes somos</div>
+  <div class="about-grid">
+    <div class="about-text">
+      <h2 class="section-title reveal">Tecnología que <em>trabaja</em> para vos.</h2>
+      <p class="reveal">En León Informática somos un equipo de profesionales dedicados a brindar soluciones tecnológicas eficientes y confiables. Trabajamos con empresas y personas que necesitan que su infraestructura digital funcione sin interrupciones.</p>
+      <p class="reveal">Nuestra propuesta combina experiencia técnica, atención personalizada y productos de calidad para que puedas enfocarte en lo que realmente importa: tu negocio.</p>
+    </div>
+    <div class="about-pillars">
+      <div class="pillar reveal">
+        <div class="pillar-icon">🛡️</div>
+        <div>
+          <h4>Confiabilidad</h4>
+          <p>Sistemas robustos y seguros que protegen tu información en todo momento.</p>
+        </div>
+      </div>
+      <div class="pillar reveal">
+        <div class="pillar-icon">⚡</div>
+        <div>
+          <h4>Eficiencia</h4>
+          <p>Optimizamos tus procesos tecnológicos para reducir tiempos y costos operativos.</p>
+        </div>
+      </div>
+      <div class="pillar reveal">
+        <div class="pillar-icon">🤝</div>
+        <div>
+          <h4>Acompañamiento</h4>
+          <p>Soporte continuo antes, durante y después de cada implementación.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios">
+  <div class="services-header">
+    <div>
+      <div class="section-label reveal">// Servicios</div>
+      <h2 class="section-title reveal">Lo que <em>ofrecemos</em></h2>
+    </div>
+    <p class="reveal">Cubrimos todas las necesidades tecnológicas de tu empresa con soluciones a medida y soporte profesional.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card reveal">
+      <div class="service-icon">🗄️</div>
+      <h3>Respaldo y Recuperación de Datos</h3>
+      <p>Protegemos tu información crítica con soluciones avanzadas basadas en servidores NAS. Implementamos copias de seguridad automatizadas y estrategias de recuperación ante desastres para garantizar la continuidad de tus operaciones.</p>
+      <span class="service-tag">NAS · Backup · Disaster Recovery</span>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-icon">🔄</div>
+      <h3>Migración y Actualización de Sistemas</h3>
+      <p>Aseguramos una transición sin problemas a nuevas plataformas. Ya sea que cambies de sistema operativo o integres nuevas tecnologías, planificamos y ejecutamos cada etapa minimizando el tiempo de inactividad.</p>
+      <span class="service-tag">Migración · Infraestructura · SO</span>
+    </div>
+    <div class="service-card reveal">
+      <div class="service-icon">🖥️</div>
+      <h3>Venta de Insumos Informáticos</h3>
+      <p>Amplia gama de hardware, accesorios y consumibles de las mejores marcas. Desde cables y adaptadores hasta impresoras y unidades de almacenamiento, te asesoramos para elegir lo mejor para tu infraestructura.</p>
+      <span class="service-tag">Hardware · Accesorios · Consumibles</span>
+    </div>
+  </div>
+</section>
+
+<!-- POR QUÉ NOSOTROS -->
+<section id="porque">
+  <div class="section-label reveal">// Nuestra diferencia</div>
+  <h2 class="section-title reveal">¿Por qué elegir <em>León Informática?</em></h2>
+  <div class="why-grid">
+    <div class="why-item reveal">
+      <div class="why-num">01</div>
+      <h4>Experiencia Comprobada</h4>
+      <p>Años de trabajo con empresas y profesionales de la región avalan la calidad de nuestros servicios.</p>
+    </div>
+    <div class="why-item reveal">
+      <div class="why-num">02</div>
+      <h4>Soluciones a Medida</h4>
+      <p>Analizamos tu situación y diseñamos la solución que tu empresa realmente necesita.</p>
+    </div>
+    <div class="why-item reveal">
+      <div class="why-num">03</div>
+      <h4>Soporte Rápido</h4>
+      <p>Respondemos con agilidad para minimizar el impacto de cualquier inconveniente.</p>
+    </div>
+    <div class="why-item reveal">
+      <div class="why-num">04</div>
+      <h4>Calidad Garantizada</h4>
+      <p>Trabajamos solo con marcas y productos que garantizan rendimiento óptimo y durabilidad.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <div class="section-label reveal">// Contacto</div>
+  <h2 class="section-title reveal">Hablemos sobre tu <em>próximo proyecto.</em></h2>
+  <div class="contact-grid">
+    <div>
+      <p class="contact-desc reveal">Estamos disponibles para atender tus consultas y ayudarte a encontrar la solución tecnológica que tu empresa necesita.</p>
+      <div class="contact-items">
+        <div class="contact-item reveal">
+          <div class="contact-item-icon">📱</div>
+          <div class="contact-item-text">
+            <span>Celular / WhatsApp</span>
+            <a href="https://wa.me/595993328745" target="_blank">+595 993 328 745</a>
+          </div>
+        </div>
+        <div class="contact-item reveal">
+          <div class="contact-item-icon">✉️</div>
+          <div class="contact-item-text">
+            <span>Correo electrónico</span>
+            <a href="mailto:soporte@leoninformatica.com.py">soporte@leoninformatica.com.py</a>
+          </div>
+        </div>
+        <div class="contact-item reveal">
+          <div class="contact-item-icon">📍</div>
+          <div class="contact-item-text">
+            <span>Dirección</span>
+            <a href="#">Km 7 Don Bosco – Calle Paraíso – Ciudad del Este, Py</a>
+          </div>
+        </div>
+      </div>
+      <div class="social-links">
+        <a href="https://wa.me/595993328745" target="_blank" class="social-btn">💬 WhatsApp</a>
+        <a href="#" target="_blank" class="social-btn">📷 Instagram</a>
+        <a href="#" target="_blank" class="social-btn">👍 Facebook</a>
+      </div>
+    </div>
+    <form class="contact-form reveal" onsubmit="handleSubmit(event)">
+      <div class="form-row">
+        <div class="form-field">
+          <label>Nombre</label>
+          <input type="text" placeholder="Tu nombre"/>
+        </div>
+        <div class="form-field">
+          <label>Email</label>
+          <input type="email" placeholder="correo@ejemplo.com"/>
+        </div>
+      </div>
+      <div class="form-field">
+        <label>Empresa</label>
+        <input type="text" placeholder="Nombre de tu empresa (opcional)"/>
+      </div>
+      <div class="form-field">
+        <label>Servicio de interés</label>
+        <select>
+          <option value="">Seleccioná una opción...</option>
+          <option>Respaldo y Recuperación de Datos</option>
+          <option>Migración y Actualización de Sistemas</option>
+          <option>Venta de Insumos Informáticos</option>
+          <option>Consulta general</option>
+        </select>
+      </div>
+      <div class="form-field">
+        <label>Mensaje</label>
+        <textarea rows="4" placeholder="Contanos cuál es tu necesidad..."></textarea>
+      </div>
+      <button type="submit" class="btn-submit">ENVIAR CONSULTA →</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">LEÓN INFORMÁTICA</div>
+  <div>© 2025 León Informática — Ciudad del Este, Paraguay</div>
+  <div class="footer-links">
+    <a href="https://wa.me/595993328745">WhatsApp</a>
+    <a href="#">Instagram</a>
+    <a href="#">Facebook</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
